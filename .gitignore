@@ -1,0 +1,12 @@
+.DS_store
+build/
+node_modules/
+#tmp
+#.idea
+
+# sensitive data
+.env
+.env.local
+.env.trade
+#!.env.dev
+#!.env.sample
