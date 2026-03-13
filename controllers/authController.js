@@ -14,15 +14,6 @@ class AuthController {
     
   }
 
-  async validUser(username, password) {
-    console.log('validUser');
-    const mockUser = {
-      username: 'dwlima',
-      password: '123' 
-    };
-    return username === mockUser.username && password === mockUser.password;
-  }
-
   async login(request, response) {
     const { username, password } = request.body;
     console.log('login');
